@@ -1,13 +1,14 @@
 import "./App.css";
-import Counter from "./components/Counter.jsx";
-import LikeButton from "./components/LikeButton";
+import Dice from "./components/Dice";
+
+
 
 function App() {
   return (
     <div className="App">
-      {/* <LikeButton /> */}
-      <Counter />
-      {/* <LikeButton /> */}
+      
+      <Dice />
+      
 
     </div>
   );
